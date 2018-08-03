@@ -313,6 +313,8 @@ footer .main-menu__link {
 .card__photo {
   float: left;
   margin-right: 20px;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 .card__decription {
