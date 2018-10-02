@@ -4,6 +4,7 @@ html {
 
 * {
   box-sizing: inherit;
+  transition: all 0.7s;
 }
 
 @font-face {
@@ -148,7 +149,7 @@ h3 {
 
 .logo_img {
   position: absolute;
-  top: 0;
+  top: 5px;
 }
 
 .header_photo {
@@ -183,6 +184,10 @@ h3 {
 }
 .main-menu__item:first-child {
   padding-left: 0;
+}
+
+.main-menu__link:hover{
+  color: #510fad;
 }
 
 footer .main-menu__link {
@@ -241,6 +246,10 @@ footer .main-menu__link {
   display: block;
 }
 
+.about_content__photo:hover {
+ box-shadow: -20px 0px 60px 10px rgba(0, 0, 0, 0.60)
+}
+
 .about_content__text {
   display: flex;
   flex-direction: column;
@@ -275,6 +284,10 @@ footer .main-menu__link {
   position: relative;
   top: -16px;
   left: 200px;
+}
+
+.about_content__link:hover {
+  color: #8f8e90;
 }
 
 /*/ABOUT - О НАС*/
@@ -342,8 +355,12 @@ footer .main-menu__link {
   position: relative;
   top: -23px;
   left: 340px;
-
 }
+
+.card__link:hover{
+  color: #8f8e90;
+}
+
 
 /*/OUR PETS - НАШИ ПОРОДЫ*/
 
@@ -401,6 +418,10 @@ blockquote {
   box-shadow: -6px 0px 19px 9px #d5d1ca
 }
 
+.blockquote__img:hover {
+  box-shadow: -6px 0px 30px 15px #d4d0c7
+}
+
 .blockquote__footer {
   font-style: italic;
   color: #737274;
@@ -411,6 +432,9 @@ blockquote {
   color: #510fad;
 }
 
+.blockquote__footer--link:hover {
+  color: #8f8e90;
+}
 /*/REVIEWS - ОТЗЫВЫ ХОЗЯЕВ*/
 
 
@@ -464,7 +488,10 @@ blockquote {
   margin-bottom: 100px;
   overflow: hidden;
   box-shadow: -6px 0 20px 11px #2020204f
+}
 
+.blog__card:hover {
+  box-shadow: -6px 0 20px 15px #35353580
 }
 
 .article__title {
@@ -493,6 +520,10 @@ blockquote {
   top: -22px;
   left: 115px;
   background: url(../images/sprite/sprites.png) -63px -167px no-repeat;
+}
+
+.article__link:hover{
+  color: #8f8e90;
 }
 
 /*/BLOG - ВСЕ О ЖИВТОНЫХ*/
