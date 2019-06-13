@@ -4,7 +4,7 @@ html {
 
 * {
   box-sizing: inherit;
-  transition: all 0.7s;
+  /*transition: all 0.7s;*/
 }
 
 @font-face {
@@ -60,6 +60,7 @@ li {
 a {
   text-decoration: none;
   color: #202020;
+  transition: all 0.7s;
 }
 
 h1 {
@@ -98,7 +99,6 @@ h3 {
 
 .first_block__subtitle {
   display: inline-block;
-  font-family: Roboto;
   font-weight: 500;
   color: #737274;
   text-transform: uppercase;
@@ -204,13 +204,10 @@ footer .main-menu__link {
 
 .wrap--about {
   height: 855px;
-
   clear: both;
   /*background-color: #510fad;*/
   background-image: url(../images/backround_about.png);
   background-repeat: no-repeat;
-  background-position: cover;
-
 }
 
 .about_inner {
@@ -324,15 +321,15 @@ footer .main-menu__link {
 }
 
 .card__photo {
+  height: 140px;
   float: left;
   margin-right: 20px;
+  margin-bottom: 4px;
   border-radius: 100%;
   overflow: hidden;
 }
 
 .card__decription {
-  font-family: Roboto;
-  font-weight: 400;
   line-height: 30px;
   color: #737274;
   margin-bottom: 20px;
@@ -487,7 +484,8 @@ blockquote {
   margin-right: 20px;
   margin-bottom: 100px;
   overflow: hidden;
-  box-shadow: -6px 0 20px 11px #2020204f
+  box-shadow: -6px 0 20px 11px #2020204f;
+  transition: all 0.7s;
 }
 
 .blog__card:hover {
